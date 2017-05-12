@@ -1,9 +1,0 @@
-\beamer@endinputifotherversion {3.19pt}
-\select@language {ngerman}
-\beamer@sectionintoc {1}{Einf\IeC {\"u}hrung}{2}{0}{1}
-\beamer@sectionintoc {2}{Geistige Voraussetzungen}{4}{0}{2}
-\beamer@sectionintoc {3}{Zeitliche Einordnung}{5}{0}{3}
-\beamer@sectionintoc {4}{Merkmale der Neuen Sachlichkeit}{6}{0}{4}
-\beamer@sectionintoc {5}{Anliegen}{9}{0}{5}
-\beamer@sectionintoc {6}{Literarische Gattungen}{10}{0}{6}
-\beamer@sectionintoc {7}{Abschluss}{13}{0}{7}
