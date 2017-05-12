@@ -1,0 +1,21 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+%opening
+\title{Aussagenlogik --- Hr. Bartelt}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\begin{tabular}[c]{ccccc}
+\textbf{Deutsch} & \textbf{Latein} & \textbf{Englisch} & \textbf{Math.} & \textbf{Inf.}\\
+Und & Konjunktion & AND & $\wedge$ & $&&$\\
+Oder & Disjunktion & OR & $\vee$ & $\textbardbl$\\
+Nicht & Negation & NOT & $\textasciimacron$ oder $\neg$ & $!$
+\end{tabular}
+\end{center}
+
+
+\end{document}

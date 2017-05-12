@@ -1,0 +1,58 @@
+\documentclass[paper=a4, fontsize=11pt]{article} % A4 paper and 11pt font size
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+%\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[ngerman]{babel} % English language/hyphenation
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+\usepackage{lettrine}
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+\textsc{Hans-Böckler Berufskolleg Münster} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Kommentar zur Talkshow\\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Alexander Pietz} % Your name
+
+\date{\normalsize 02. Februar 2014} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle
+
+
+\section{Die Positionen der Beteiligten}
+An der Talkshow nahmen der deutsche Historiker Jörg Friedrich, der Bürgermeister Klaus von Dohnanyi und der britische Historiker Anthony Glees teil.
+
+\paragraph{Glees} war in gewisser Hinsicht der Meinung, die britische Strategie des Bomberkrieges war in gewisser Weise gerechtfertigt. Er meine, es sei ein begründeter Racheakt und man ``müsse den Deutschen zeigen, was sie falsch gemacht haben''. Seiner Meinung nach war das zu erreichene Ziel ein Aufstand des Volkes und die Stürzung des Regimes von innen heraus. Es hätte keine Alternative gegeben.
+
+\paragraph{Friedrich} hingegen ist der Meinung, die Alternative wäre es gewesen, (wie eigentlich vorgesehen) militärische Ziele zu zerstören. Dazu zählen zum Beispiel Stätten der Rüstungsproduktion oder -lagerung. Auch er war der Meinung, Hitler musste auf jeden Fall niedergezwungen werden, aber nicht mit allen Mitteln. So sei zum Beispiel die von Glees als Antwort angeführte Bombardierung von zivilen Zielen, um die Straßen zu blockieren definitiv kein vertretbares Mittel.
+
+\paragraph{Von Dohnanyi} befindet sich schließlich in einer sehr passiven Situation. Er führt hauptsächlich an, dass eine Bombardierung der Bevölkerung nicht zum Machtwechsel führe und, dass es für die innere Opposition, welche Glees ansprach, nicht genügend Widerstand in der Gesellschaft gegeben habe. Begründen tut er dies dadurch, dass Widerstand unter Hitler den Tod bedeutet hat. Glees stimmt dem zu.
+
+\newpage
+\subsection{Für eine Talkshow üblich}
+Meiner Meinung nach war das Format zunächst einmal förmlich betrachtet ein üblicher ``Polit-Talk'': Zwei durchaus telegene Parteien, welche fest sich selbst überzeugt sind, bekämpfen sich gegenseitig für die Trophäe des Rechtbehaltens und des letzten Wortes. Glees und Friedrich fielen definitiv in dieses Schema, Dohnanyi kam kaum zu Wort. Darunter leidet die thematische Ausrichtung der Show enorm. Das eigentliche Thema war der Irak-Krieg, angesprochen nur vom Moderator und Dohnanyi. Die Sprechhandlungen hätten vom Moderator wesentlich besser reglementiert werden können. Zudem wurde diese Talkshow auch dazu missbraucht, Friedrich's Buch zu vermarkten; der Inhalt dieses wird von Friedrich in seinen Aussagen teils vorausgesetzt.
+\newline
+\lettrine[nindent=0em,lines=2]{\textbf{M}}eine inhaltliche Kritik gilt zunächst der Balance der Aussagen von Glees und Friedrich. Es ist, so finde ich, niemals(!) gerechtfertigt, in einem Krieg zivile Ziele zu attackieren. Ich halte Krieg allgemein für ungerechtfertigt (wie wäre es mit basisdemokratische Kriegsführung?\footnote{Achtung, Ironie!}). Ich bin der Meinung, es gab auf Seiten eines jeden Teilnehmers des Krieges Fehler und Kriegsverbrechen. Jedoch ist es eine Schande, wer letztendlich für verantwortlich gemacht wird - die Verlierermächte. Kriegsverbrechen auf Seiten der Sieger müssen auch bestraft werden - auch hier gilt: Kein Krieg - Keine Kriegsverbrechen.  \\
+Angesprochen wurden ebenfalls Hiroschima und Nagasaki als ``Taktik'' von Amerika. Ich bin der Auffassung, es ging hierbei rein um die Erforschung der Wirkung von atomaren Waffen. Aufzeichnungen über den Einsatz von Ärzten in diesen Regionen nach der Verwendung der Atombombe bestätigen dies. \\
+Zu guter Letzt sehe ich eine weitere Gefahr in der verallgemeinerung von Völkern. So ist Deutschland zum Beispiel nicht Angela Merkel. Friedrich spiegelt nicht die Meinung aller Deutschen und Glees nicht die aller Briten wieder. Man darf diese einzelnen Personen auch nicht dazu nutzen, um gewisse Stereotypen zu bilden oder zu erkräften
+
+\end{document}

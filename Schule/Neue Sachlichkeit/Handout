@@ -1,0 +1,93 @@
+
+\documentclass[twoside]{article}
+\usepackage{graphicx}
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{28. Nobember 2013} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{Waste Management}} % Article title
+
+\author{
+\large
+\textsc{Alexander Pietz}\thanks{Sources: Wikipedia.org, gov.uk, dhs.gov, thefreedictionary.com, scp.eionet.europa.eu; startpage.com was used as search engine}\\[2mm] % Your name
+\normalsize Hans-Böckler Berufskolleg Münster \\ % Your institution
+\vspace{-5mm}
+}
+\date{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert title
+
+\thispagestyle{fancy} % All pages have headers and footers
+
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2} % Two-column layout throughout the main article text
+
+\section{Kinds of wastes}
+\begin{itemize}
+    \item solid $\Leftrightarrow$ liquid
+    \item bio-degradable $\Leftrightarrow$ non-biodegradable
+    \item hazardous $\Leftrightarrow$ non-hazardous
+\end{itemize}
+  $\hookrightarrow$ different methods of disposal
+
+\section{Effects of waste if not managed wisely}
+Affects our health, socio-economic conditions, coastal and marine environment, climate
+and aesthetics
+
+\section{Most used methods of disposal}
+\textbf{Landfill}: dispose of waste material by burying it and covering it over with soil, esp. as a method of filling in or extending usable land. \\ \newline
+\textbf{Incineration}: controlled burning of waste in a furnace at high temperatures.
+
+\section{What can I do?}
+You could: Purchase products in bulk, Use durable towels, tablecloths, napkins, dishes, cups, and glasses, donate or exchange old books, clothes, ..
+\end{multicols}
+
+\begin{center}
+ \includegraphics[scale=0.8,keepaspectratio=true]{../Images/550px-Waste_hierarchy.png}
+ % 550px-Waste_hierarchy.png: 0x0 pixel, 0dpi, nanxnan cm, bb=
+\end{center}
+
+
+\end{document}
