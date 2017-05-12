@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bieber()
+comment1.params=o
+comment1.target=void\ addObserver(Observer)
+comment2.params=o
+comment2.target=boolean\ removeObserver(Observer)
+comment3.params=
+comment3.target=void\ notifyAllObservers()
+comment4.params=
+comment4.target=boolean\ getZustand()
+comment5.params=drugs
+comment5.target=void\ setZustand(boolean)
+numComments=6
